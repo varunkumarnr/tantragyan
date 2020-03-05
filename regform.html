@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="./form/register.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <div id="nav-bar start">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./home.html">TANTRAGYAAN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 
+                <ul class="navbar-nav ml-auto">
+               
+                  
+                <li class="nav-item">
+                  <a class="nav-link " href="./home.html">HOME</a>
+                </li>
+                <li class = "nav-item">
+                  <a class= "nav-link join-now " href ="events.html">Event</a>
+              </li>
+             
+                <li class = "nav-item">
+                    <a class= "nav-link join-now active " href ="regform.html">Registration page<span class="sr-only">(current)</span></a>
+                </li>
+                <li class = "nav-item">
+                  <a class= "nav-link join-now " href ="about.html">About</a>
+              </li>
+              <li class = "nav-item">
+                <a class= "nav-link join-now " href ="faq.html.html">FAQ</a>
+            </li>
+                <li class = "nav-item">
+                  <a class= "nav-link join-now " href ="contact.html">Contact</a>
+              </li>
+
+            </div>
+          </nav>
+</div>
+    <div class="form_container">
+        <div class="container">
+            <div class="wrapper">
+              <ul class="steps">
+                <li class="is-active">Step 1</li>
+                <li>Step 2</li>
+                <li>Step 3</li>
+              </ul>
+              <form class="form-wrapper">
+                <fieldset class="section is-active">
+                  <h3>Your Details</h3>
+                  <input type="text" name="name" id="name" placeholder="Name">
+                  <input type="text" name="email" id="email" placeholder="Email">
+                  <input type="text" name="phone" id="mobile" placeholder="Mobile">
+                  <div class="button">Next</div>
+                </fieldset>
+                <fieldset class="section">
+                  <h3>Events</h3>
+                  <div class="row cf">
+                    <div class=" col-md-6">
+                      <input type="radio" name="r1" id="r1" >
+                      <label for="r1">
+                        <h4>College Events</h4>
+                      </label>
+                    </div>
+                    <div class="col-md-6">
+                      <input type="radio" name="r1" id="r2"><label for="r2">
+                        <h4>School Events </h4>
+                      </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class ="college-op">
+                   
+                               <label for="inputState">Name of the competation</label>
+                               <select id="inputState" class="form-control">
+                               
+                                 <option selected>Drone making</option>
+                                 <option>robotics</option>
+                                 <option>Artificial Intellgence and machine learning</option>
+                                 <option>Internet of Things</option>
+                                 <option>Renewable Energy based projects</option>
+                                 <option>electrical energy based projects</option>
+                               </select>
+                               <label id="forlablepadding" for="collegename" >College Name</label>
+                                <input type="text" class="form-control" id="collegename" placeholder="college name">
+                             </div>
+                             </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <div class="school-op">
+                                <label for="inputState">Name of the competation</label>
+                                <select id="inputState" class="form-control">
+                                
+                                  <option selected>Quiz</option>
+                                  <option>Science Exhibition</option>
+                                  <option>Painting</option>
+                                  <option>Collage Making</option>
+                                </select>
+                                <label id="forlablepadding" for="schoolname" >School Name</label>
+                                <input type="text" class="form-control" id="schoolname" placeholder="School name">
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                   
+                     
+                  <div class="button">Next</div>
+                </fieldset>
+                <fieldset class="section">
+                  <h3>Adresss</h3>
+                  <input type="text" name="state" id="state" placeholder="State">
+                  <input type="text" name="city" id="name" placeholder="City">
+                  <input type="text" name="land_mark" id="name" placeholder="Land Mark">
+                  <input type="text" name="adress" id="name" placeholder="House Name">
+                  <input class="submit button" type="submit" value="Sign Up">
+                </fieldset>
+                <fieldset class="section">
+                  <h3>You have Registered!</h3>
+                  <p>Thank You from Team TantraGyaan</p>
+                  <div class="button">Reset Form</div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+       
+    </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="./form/registritionmain.js" ></script>  
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

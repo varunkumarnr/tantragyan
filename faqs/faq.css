@@ -1,0 +1,25 @@
+.title, .subtitle{
+    color: honeydew;
+}
+.jumbotron{
+    background-color: black;
+}
+.title{
+    font-size: 30px;
+}
+.subtitle{
+    font-size: 20px;
+}
+.first-title{
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 100px;
+    
+}
+.first{
+    border-top: 3px solid orange;
+    
+}
+.row-2{
+    margin-top: 50px;
+}
